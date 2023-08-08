@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+scroll-behavior: smooth;
+font-family: 'raleway',sans-serif;
+}
+.container .display-heading {
+  display: none;
+  position: absolute;
+  transition: height 1s ease;
+}
+
+.container.show-heading .display-heading {
+  display: block;
+}
+h2{
+/* display: flex; */
+width: 20rem;
+color: #05b183fc;
+/* justify-content: center; */
+text-align: center;
+margin: auto;
+padding-top: 5rem;
+line-height: 0.1em;
+border-bottom: 0.1rem solid #808080b3;
+margin-bottom: 2rem;
+}
+h2 span{
+    background-color: #fff;
+    padding:0 10px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20rem;
+    height: 30rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.card .container{
+    /* display: flex; */
+    width: 20rem;
+    height: 5rem;
+    border: 0.1rem solid #808080b3;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-radius: 2px;
+    font-size: 0.7rem; 
+    transition: height .8s ease;
+}
+.card .container:hover{
+    height: 8rem;
+    background-color: #7bdcc28f;
+    border: 2px solid #006A4E;
+}
+.list_data{
+    display: inline;
+    padding: 1rem;
+  }
+  .list_data_li{
+    display: inline;
+    padding-left: 1.8rem;
+    font-weight: bold;
+    list-style: none;
+}
+.list_data_1{
+  display: inline;
+  padding: 1rem;
+  /* margin-bottom: 1rem; */
+  }
+  select{
+  background-color: white;
+  border-radius: 1px;
+  border: 1px solid white;
+  padding: 0.1rem;
+   margin-bottom: 0.1rem;
+  }
+.divider{
+    margin-top: 0.5rem;
+  }
+li {
+    display: inline;
+  }
+  ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: oem;
+}
+  .ul_item_offer li{
+    display: block;
+    float: right;
+    width: 10rem;
+    padding-left: 5rem;
+    list-style-type: none;
+  }
+  .btn{
+    display: flex;
+    color: white;
+    background-color: #006A4E;
+    border: none;
+    width: 20rem;
+    height: 2rem;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem auto auto auto;
+    padding: 0.5rem;
+    border-radius: 2px;
+}
+.tag_line{
+    width: 58%;
+    text-align: right;
+    justify-items: right;
+    margin: 1rem;   
+    font-size: 0.7rem;
+    margin: 1rem;   
+    font-size: 0.7rem;  
+    font-style: italic; 
+}
+.card .price_category_total{
+    display: flex;
+    width: 20rem;
+    height: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-radius: 2px;
+    font-size: 0.7rem;
+}
+/* second */
+.container_two .display-heading_two {
+  display: none;
+  position: absolute;
+  transition: height 1s ease;
+}
+.container_two .show-heading_two .display-heading_two {
+  display: block;
+  /* -webkit-transition: all .6s;
+    transition: all .6s; */
+    /* transition: height 0.3s ease; */
+}
+.card .container_two{
+    /* display: flex; */
+    width: 20rem;
+    height: 5rem;
+    border: 0.1rem solid #808080b3;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-radius: 2px;
+    font-size: 0.7rem; 
+    transition: height .8s ease;
+}
+.card .container_two:hover{
+    height: 8rem;
+    background-color: #7bdcc28f;
+    border: 2px solid #006A4E;
+}
+
+/* third */
+.container_three .display-heading_three {
+  display: none;
+  position: absolute;
+  transition: height 1s ease;
+}
+.container_three .show-heading_three .display-heading_three {
+  display: block;
+  /* -webkit-transition: all .6s;
+    transition: all .6s; */
+    /* transition: height 0.3s ease; */
+}
+.card .container_three{
+    /* display: flex; */
+    width: 20rem;
+    height: 4rem;
+    border: 0.1rem solid #808080b3;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-radius: 2px;
+    font-size: 0.7rem; 
+    transition: height .8s ease;
+}
+.card .container_three:hover{
+    height: 8rem;
+    background-color: #7bdcc28f;
+    border: 2px solid #006A4E;
+}
+/* third */
+#boldText{
+  font-weight: bold;
+}
